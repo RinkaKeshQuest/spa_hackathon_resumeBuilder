@@ -1,0 +1,50 @@
+.cv-builder_cont {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.cv-builder {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  /* Horizontally align form and preview */
+}
+
+.cv-form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  max-width: 500px;
+  max-height:100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.cv_form_inp{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cv-preview {
+  flex: 1;
+  padding: 20px;
+  border: 1px dashed gray;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.cv-preview h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.cv-preview h3 {
+  margin-top: 10px;
+  color: #666;
+}
